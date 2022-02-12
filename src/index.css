@@ -1,0 +1,80 @@
+body{
+  background: crimson;
+  margin: 0;
+  padding: 0;
+}
+.main_div{
+ display: flex;
+justify-content: center;
+text-align: center;
+height:600px ;
+align-items: center;
+
+
+}
+ol{
+  list-style: none;
+  text-align: left;
+
+
+}
+.center_div{
+ height: 400px;
+ width: 300px;
+ padding: 5px;
+ background-color: white
+}
+.center_div h1{
+  background: violet;
+}
+
+
+.center_div input{
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  border-bottom: 2px solid violet;
+  outline: none;
+ 
+  
+ 
+
+}
+button{
+  margin-left: 5px;
+  border: none;
+ 
+  border-radius: 54px;
+  background: violet;
+   color: white;
+  font-size: 20px;
+}
+button:hover{
+  background-color: aquamarine;
+}
+
+
+
+.todo_style{
+  display: flex;
+  
+  font-size: 25px;
+  margin-right: 30px;
+  align-items: center;
+
+ 
+  justify-content:space-between;
+ 
+}
+.btn{
+  background-color: brown;
+ 
+ 
+ 
+  }
+  .btn:hover{
+    background-color: blue;
+  }
+  .btn ,span{
+    font-size: 20px;
+  }
